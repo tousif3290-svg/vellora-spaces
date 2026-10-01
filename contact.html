@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Vellora Spaces</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css?v=3">
+    <style>
+        .page-header {
+            padding-top: 10rem;
+            padding-bottom: 4rem;
+            background-color: var(--color-primary);
+            color: var(--color-light);
+            text-align: center;
+        }
+        .page-header h1 {
+            color: var(--color-light);
+        }
+        .navbar {
+            background: rgba(74, 55, 40, 0.95);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Vellora.</a>
+            <nav class="nav-links">
+                <a href="portfolio.html">Portfolio</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html" class="btn-primary">Let's Talk</a>
+            </nav>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Let's Connect</h1>
+            <p style="color: rgba(255,255,255,0.8);">Ready to transform your space? Reach out to us.</p>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="contact-wrapper animate-on-scroll is-visible">
+                <div class="contact-info">
+                    <h2>Tell us about your project.</h2>
+                    <p>Whether you're looking to refresh a single room with warm, natural styling or embarking on a full-scale home renovation, we're here to guide you. We value open communication and collaborative design to ensure your space is a true reflection of you.</p>
+                    <div class="contact-details">
+                        <p><strong>Email:</strong> hello@velloraspaces.com</p>
+                        <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                        <p><strong>Studio:</strong> 124 Design Avenue, NY 10001</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required placeholder="Jane Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required placeholder="jane@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" rows="4" required placeholder="Tell us about your space..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary w-100">Send Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h2>Vellora.</h2>
+                    <p>Creating spaces that inspire through natural elements and timeless design. Your sanctuary awaits.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Explore</h3>
+                    <div class="link-grid">
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="services.html">Services</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect</h3>
+                    <div class="link-grid">
+                        <a href="#">Instagram</a>
+                        <a href="#">Pinterest</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 Vellora Spaces. All rights reserved.</p>
+                <p class="credit">Designed and developed by BluSix</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

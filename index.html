@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vellora Spaces - Premium Interior Design Studio. We create breathtaking, functional spaces tailored to your lifestyle.">
+    <title>Vellora Spaces | Interior Design Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css?v=3">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Vellora.</a>
+            <nav class="nav-links">
+                <a href="portfolio.html">Portfolio</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html" class="btn-primary">Let's Talk</a>
+            </nav>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- The background image will be injected via inline style or CSS class once generated -->
+        <div class="hero-overlay"></div>
+        <div class="hero-content animate-on-scroll">
+            <h1>Elevate Your Space.</h1>
+            <p>We believe that your home should be a reflection of your unique story. By blending natural wood textures, warm earthy tones, and timeless elegance, we craft living spaces that are both breathtaking and deeply functional. Let us transform your environment into a personal sanctuary.</p>
+            <a href="portfolio.html" class="btn-outline">View Our Work</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2>Our Expertise</h2>
+                <p>We offer comprehensive, end-to-end design solutions tailored for modern residential and commercial spaces. From the initial concept sketches to the final installation of custom woodwork and furnishings, our team ensures every detail aligns with your vision.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">01</div>
+                    <h3>Full-Service Design</h3>
+                    <p>From conceptualization to the final reveal, we handle every detail of your interior project.</p>
+                </div>
+                <div class="service-card animate-on-scroll" style="transition-delay: 0.1s;">
+                    <div class="service-icon">02</div>
+                    <h3>Renovation Strategy</h3>
+                    <p>Expert guidance and space planning to maximize the potential of your existing property.</p>
+                </div>
+                <div class="service-card animate-on-scroll" style="transition-delay: 0.2s;">
+                    <div class="service-icon">03</div>
+                    <h3>Styling & Furnishing</h3>
+                    <p>Curating the perfect pieces to bring character and harmony to your space.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section-padding bg-light">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2>Selected Works</h2>
+                <p>A glimpse into our recent design transformations.</p>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Items will be populated via JS or updated with generated image paths -->
+                <div class="portfolio-item animate-on-scroll" id="portfolio-img-1">
+                    <div class="portfolio-info">
+                        <h3>Modern Minimalist Kitchen</h3>
+                        <span>Residential</span>
+                        <p style="margin-top: 0.5rem; color: rgba(255,255,255,0.8); font-size: 0.95rem;">A complete overhaul featuring natural oak cabinetry and quartz countertops, designed for both culinary function and entertaining.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item animate-on-scroll" id="portfolio-img-2">
+                    <div class="portfolio-info">
+                        <h3>Serene Master Suite</h3>
+                        <span>Residential</span>
+                        <p style="margin-top: 0.5rem; color: rgba(255,255,255,0.8); font-size: 0.95rem;">Transforming a standard bedroom into a private oasis with custom wood paneling and ambient lighting.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="contact-wrapper animate-on-scroll">
+                <div class="contact-info">
+                    <h2>Ready to transform your space?</h2>
+                    <p>Let's discuss your vision and bring it to life.</p>
+                    <div class="contact-details">
+                        <p><strong>Email:</strong> hello@velloraspaces.com</p>
+                        <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                        <p><strong>Studio:</strong> 124 Design Avenue, NY 10001</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required placeholder="Jane Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required placeholder="jane@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" rows="4" required placeholder="Tell us about your space..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary w-100">Send Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h2>Vellora.</h2>
+                    <p>Creating spaces that inspire through natural elements and timeless design. Your sanctuary awaits.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Explore</h3>
+                    <div class="link-grid">
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="services.html">Services</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect</h3>
+                    <div class="link-grid">
+                        <a href="#">Instagram</a>
+                        <a href="#">Pinterest</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 Vellora Spaces. All rights reserved.</p>
+                <p class="credit">Designed and developed by BluSix</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
